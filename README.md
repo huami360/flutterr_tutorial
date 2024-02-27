@@ -6,3 +6,8 @@
 ```
 /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
 ```
+
+### 初次安装Xcode
+```
+sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+```
