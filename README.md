@@ -17,6 +17,11 @@ brew install cocoapods
 pod repo add tuna https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git
 ```
 
+### podfile第一行加上
+```
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+```
+
 ### 初次安装Xcode
 ```
 sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
