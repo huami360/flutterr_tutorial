@@ -10,13 +10,13 @@ export PUB_HOSTED_URL=https://pub.flutter-io.cn
 export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 ```
 替换flutter/package/flutter_toools/lib/src/http_host_validator.dart
-···
+```
 const String kCloudHost = 'https://storage.googleapis.com/';
 const String kCocoaPods = ' https://maven.aliyun.com/repository/google/';
 const String kGitHub = 'https://github.com/';
 const String kMaven = ' https://maven.aliyun.com/repository/google/';
 const String kPubDev = 'https://mirrors.tuna.tsinghua.edu.cn/dart-pub;
-···
+```
 
 ### homebrew安装
 ```
