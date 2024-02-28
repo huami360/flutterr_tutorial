@@ -9,7 +9,7 @@
 export PUB_HOSTED_URL=https://pub.flutter-io.cn
 export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 ```
-替换flutter/package/flutter_toools/lib/src/http_host_validator.dart
+替换`flutter/package/flutter_toools/lib/src/http_host_validator.dart`
 ```
 const String kCloudHost = 'https://storage.googleapis.com/';
 const String kCocoaPods = ' https://maven.aliyun.com/repository/google/';
